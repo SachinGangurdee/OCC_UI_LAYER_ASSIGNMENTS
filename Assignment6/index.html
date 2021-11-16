@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Form validation demo</h1>
+    </header>
+    <section>
+      <article>
+        <h2>Using get method</h2>
+        <form className="form-group" action="welcome" method="GET">
+          <div className="form-control">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+          </div>
+          <div className="form-control">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" />
+          </div>
+          <div className="form-control">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" />
+          </div>
+          <div>
+            <input type="submit" value="submit" />
+          </div>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <h3>Maste &copy;</h3>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+header h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    color: cyan;
+}
+
+header h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    color: cyan;
+}

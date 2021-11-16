@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div>
+      <label for="hobby">Please share your hobby</label>
+      <input type="text" name="hobby" id="hobby" onkeydown="update()" />
+    </div>
+    <div>Your hobby is:<span id="result"></span></div>
+    <script>
+      const hobby = document.getElementById("hobby");
+      const result = document.getElementById("result");
+      function update() {
+        result.innerHTML = hobby.value;
+      }
+    </script>
+  </body>
+</html>
